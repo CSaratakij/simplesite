@@ -14,7 +14,7 @@ body {
 
 .header {
     display: grid;
-    grid-template: 1fr / 1fr 2fr;
+    grid-template: 1fr / 1fr 1fr;
     position: fixed;
     top: 0;
     width: 100%;
@@ -58,7 +58,7 @@ body {
     position: relative;
     display: grid;
     grid-template: 1fr / 1fr;
-    margin: 0px;
+    margin: 18px;
     outline: black;
     outline-width: thin;
     justify-content: center;
@@ -66,8 +66,10 @@ body {
     height: auto;
 }
 
-.container.content {
+.project-container-content {
+    display: flex;
     justify-content: center;
+    flex-flow: row wrap;
 }
 
 .wrapper {
