@@ -38,9 +38,9 @@ hr {
 }
 
 a.site-title {
-    margin-right: 6px;
     color: white;
     text-decoration: none;
+    font-size: large;
 }
 
 .header {
