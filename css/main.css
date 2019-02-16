@@ -37,6 +37,12 @@ hr {
     padding: 0; 
 }
 
+a.site-title {
+    margin-right: 6px;
+    color: white;
+    text-decoration: none;
+}
+
 .header {
     display: grid;
     grid-template: 1fr / 1fr 1fr;
@@ -73,6 +79,10 @@ hr {
     text-decoration: none;
 }
 
+.header-menu-button:hover {
+    text-decoration: underline;
+}
+
 .navigation {
     position: fixed;
     top: 0;
@@ -91,6 +101,8 @@ p.title {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     color: black;
+    font-size: large;
+    font-style: bold;
 }
 
 p.description {
@@ -100,6 +112,7 @@ p.description {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-style: italic;
+    font-size: medium;
 }
 
 .content {
@@ -145,6 +158,10 @@ p.description {
     height: 100%;
     border: 2px solid #ffffff;
     border-radius: 4px;
+}
+
+.project-container-content:hover {
+    text-decoration: underline;
 }
 
 .project-container-description {
